@@ -176,11 +176,6 @@ Box = function(params) {
   };
 };
 
-
-/*
-  App stuff: properties array and executor function
- */
-
 properties = [
   {
     id: "Width",
