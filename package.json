@@ -3,7 +3,7 @@
     "coffee-script": "^1.10.0"
   },
   "scripts": {
-    "build": "cat svg.coffee app.coffee | ./node_modules/.bin/coffee --bare --compile --stdio > build/build.js",
+    "build": "cat src/svg.coffee src/utils.coffee src/box.coffee src/app.coffee | ./node_modules/.bin/coffee --bare --compile --stdio > build/build.js",
     "test": "npm run build; node build/build.js > out.svg; open out.svg"
   }
 }
