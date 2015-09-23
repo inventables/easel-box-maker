@@ -1,5 +1,4 @@
 tabSizes = (length, tabLength) ->
-  # directly from box-o-matic, not quite correct because it always makes tabSize and gapSize the same
   segments =  Math.floor(Math.floor(length / tabLength) / 2) * 2 + 1
 
   {
